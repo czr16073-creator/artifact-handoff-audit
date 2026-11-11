@@ -1,0 +1,10 @@
+{
+  "columns": {
+    "site_id": {"required": true},
+    "day": {"required": true, "type": "date"},
+    "units": {"required": true, "type": "integer"}
+  },
+  "key": ["site_id", "day"],
+  "allow_extra_columns": false,
+  "min_rows": 1
+}

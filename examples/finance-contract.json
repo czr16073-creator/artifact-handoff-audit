@@ -1,0 +1,10 @@
+{
+  "columns": {
+    "order_id": {"required": true},
+    "currency": {"required": true, "allowed": ["CNY", "USD"]},
+    "refund_status": {"required": true, "allowed": ["none", "partial", "full"]},
+    "amount": {"required": true, "type": "decimal"}
+  },
+  "key": ["order_id"],
+  "min_rows": 1
+}
